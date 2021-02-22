@@ -53,7 +53,7 @@ create table dept_manager(
 	 FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 );
 
---2) Import CSV files to tables using import/export function
+--2) Import CSV files to tables using import/export function of postgreSQL
 
 
 

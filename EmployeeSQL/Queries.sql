@@ -6,7 +6,7 @@ SELECT employees.emp_no, employees.last_name, employees.first_name, employees.se
 
 -- 2. List employees who were hired in 1986.
 
-SELECT emp_no,last_name, first_name, hire_date
+SELECT emp_no, last_name, first_name, hire_date
   FROM employees
  WHERE hire_date between '1986-01-01' and '1986-12-31'
  ORDER BY hire_date ASC;
